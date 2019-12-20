@@ -15,9 +15,7 @@ public class Main {
 						balance = balance + 100;
 					}
 
-					long timestamp = System.currentTimeMillis();
-
-					System.out.println(balance + "\t" + timestamp); // Emulates response sending
+					System.out.println(balance + "\t" + System.currentTimeMillis()); // Emulates response sending
 
 					try {
 						Thread.sleep(1);
